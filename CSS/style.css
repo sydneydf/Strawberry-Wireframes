@@ -1,10 +1,23 @@
 /*CSS Document */
+body{
+    background-color:tomato;
+    border: black solid;
+}
+
 header{
     vertical-align: top;
     padding: 50px;
     border: 1px;
     background-color: burlywood;
     border: black solid;
+    margin: 5px;
+}
+
+nav{
+    height: 100%;
+    background-color:whitesmoke;
+    border: black solid;
+    margin: 5px;
 }
 
 ul{
@@ -13,18 +26,52 @@ ul{
 
 li{
     float: left;
+    padding: 5px;
 }
 
 main{
     background-color: blue;
     border: black solid;
+    margin: 5px;
+}
+
+#aside1{
+    background-color:aqua;
+    border: black solid;
+    margin: 5px;
+    float: left;
 }
 
 section{
-    background-color: grey;
+    background-color:black;
     border: black solid;
+    margin: 5px;
+    float: right;
 }
 
+#div1{
+    background-color:lightblue;
+    border: black solid;
+    margin: 5px; 
+}
+
+#aside2{
+    background-color:whitesmoke;
+    border: black solid;
+    margin: 5px;
+}
+
+#article1{
+    background-color: grey;
+    border: black solid;
+    margin: 5px;
+}
+
+#article2{
+    background-color: grey;
+    border: black solid;
+    margin: 5px; 
+}
 
 footer{
     vertical-align: bottom;
@@ -32,4 +79,5 @@ footer{
     
     background-color: darkgoldenrod;
     border: black solid;
+    margin: 5px;
 }
