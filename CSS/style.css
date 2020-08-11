@@ -1,0 +1,35 @@
+/*CSS Document */
+header{
+    vertical-align: top;
+    padding: 50px;
+    border: 1px;
+    background-color: burlywood;
+    border: black solid;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
+
+main{
+    background-color: blue;
+    border: black solid;
+}
+
+section{
+    background-color: grey;
+    border: black solid;
+}
+
+
+footer{
+    vertical-align: bottom;
+    padding: 50px;
+    
+    background-color: darkgoldenrod;
+    border: black solid;
+}
