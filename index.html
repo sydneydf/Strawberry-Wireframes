@@ -1,19 +1,21 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id=head>
    <head>
       <meta charset="UTF-8">
       <title>Strawberry Wireframes</title>
+      <link href="CSS/reset.css" rel="reset" type="text/css">
       <link href="CSS/style.css" rel="stylesheet" type="text/css" media="all">
    </head>
 
-   <body>
-      <header>
+   <outer class="clearfix">
+   <body class="clearfix" id="body"> 
+      <header class="clearfix">
          <h1>THIS IS THE HEADER</h1>
       </header>
 
-      <nav>
+      <nav class="clearfix">
          <ul>
             <li><a href="#">CONTENT</a></li>
             <li><a href="#">CONTENT</a></li>
@@ -23,13 +25,13 @@
          </ul>
       </nav>
 
-      <main>
+      <main class="clearfix">
          <aside id="aside1">
              <h1>Side Aside</h1>
          </aside>
 
-            <section>
-                <h1>Section</h1>
+            <section class="clearfix">
+                <p class="darkback">Section</p>
                     <div id="div1">
                         <h1>div</h1>
                     </div>
@@ -48,10 +50,11 @@
                 </section>
         </main>
 
-      <footer>
+      <footer class="clearfix">
          <h1>THIS IS THE FOOTER!</h1>
       </footer>
 
    </body>
+   </outer>
 </html>
 
