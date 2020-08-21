@@ -1,6 +1,8 @@
 /*CSS Document */
 
-
+*{
+    box-sizing: border-box;
+}
 
 .clearfix::after {
     content: "";
@@ -8,19 +10,23 @@
     display: table;
   }
 
-
-
-outer{
-    width: 1020px;
-    
-    
-}
-
 body{
-    width: auto;
-    background-color:tomato;
-    border: black solid;
+    overflow: scroll;
 }
+
+#outerdiv{
+    max-width: 1020px;
+    height: 100%;
+    width: 100%;
+    background-color: darkseagreen;
+    border: black solid;
+    
+
+}
+
+
+
+
 
 header{
     width: auto;
@@ -30,20 +36,18 @@ header{
     border: 1px;
     border: black solid;
     margin: 5px;
-    background-color: #000000;
-    background-image: url(https://the-way-of-japan.com/fruits/en/wp-content/uploads/sites/3/2019/08/sujino1-800x600.jpg); 
-    background-size: 100%;
-    background-attachment: fixed;
+    background-color: #FA255E;
+    
+    background-image: url(https://www.f-covers.com/cover/strawberries-2-facebook-cover-timeline-banner-for-fb.jpg); 
     background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-
-
 nav{
-    
-    
-    background-color:whitesmoke;
-    border: black solid;
+  
+    background-color:#C39EA0;
+    border: black ridge;
     
     width: auto;
     margin: 5px;
@@ -56,95 +60,88 @@ nav{
 ul{
     
     list-style-type: none;
-    width: auto;
-    align-items: center;
-    align-content: center;
-    align-self: center;
+    
 }
 
 li{
-    
-    border: black 1px;
+    margin: 20px;
+    border: black 1px ;
     float: left;
     
-    border: black ridge;
-    padding-left: 4%;
-    padding-right: 4%;
-    align-items: center;
-    align-content: center;
-    align-self: center;
-    width: 10%;
-    
-
 }
 
 main{
-    height: 1000px;
-    width:auto;
-    background-color: blue;
+    
+    width: auto;
+    background-color: #5e6363;
     border: black solid;
     margin: 5px;
-    box-sizing: border-box;
+    
+    
 }
 
 #aside1{
-    box-sizing: border-box;
+    
     min-height: 98.5%;
-    background-color: aqua;
+    background-color: #C39EA0;
     border: black solid;
-    margin: 5px 0px 5px 5px;
-    
-    width: 33%;
-    
+    margin: 5px;
+    padding: 5px;
+    width: 32%;
     float: left;
 }
 
 section{
-    box-sizing: border-box;
+    
     height: 99%;
-    background-color:black;
+    background-color:#C39EA0;
     border: black solid;
-    margin: 5px 5px 5px 0px;
+    margin: 5px;
+    padding: 5px;
     width: 65.5%;
-    float: right;
+    float: left;
 }
 
 #div1{
-    box-sizing: border-box;
-    background-color:lightblue;
+    
+    background-color:#f8e5e5;
     border: black solid;
     margin: 5px; 
+    padding: 5px;
     width: 99%;
     min-height: 18%;
     float: left;
 }
 
 #aside2{
-    box-sizing: border-box;
-    background-color:whitesmoke;
+    
+    background-color:#f8e5e5;
     border: black solid;
     margin: 5px;
-    width: 49%;
+    padding: 5px;
+    width: 47.5%;
     height: 26%;
     float: right;
 }
 
 #article1{
-    box-sizing: border-box;
-    background-color: grey;
+    
+    background-color: #f8e5e5;
     border: black solid;
     margin: 5px;
-    width: 48%;
+    padding: 5px;
+    width: 47.5%;
     height: 75%;
     float: left;
 }
 
 #article2{
-    box-sizing: border-box;
-    background-color: grey;
+    
+    background-color: #f8e5e5;
     border: black solid;
     margin: 5px; 
-    width: 49%;
+    padding: 5px;
+    width: 47.5%;
     min-height: 48%;
     float: right;
 }
@@ -155,10 +152,31 @@ section{
 
 footer{
     height: 150px;
+    width: auto;
     vertical-align: bottom;
-    padding: 50px;
     
-    background-color: darkgoldenrod;
+    align-content: center;
+    
+    background-color: #FA255E;
     border: black solid;
     margin: 5px;
+    overflow-wrap: normal;
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+
+#footerheader{
+    margin: 10px;
+    height: 50%;
+    vertical-align: top;
+    float: left;
+}
+
+#footerparagraph{
+    margin: 10px;
+    height: 50%;
+    vertical-align: bottom;
+    float: left;
 }
