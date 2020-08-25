@@ -12,21 +12,18 @@
 
 body{
     overflow: scroll;
+    width: 100%;
 }
 
 #outerdiv{
     max-width: 1020px;
     height: 100%;
     width: 100%;
+    margin: 0 auto;
     background-color: darkseagreen;
     border: black solid;
-    
-
+    text-align: center;
 }
-
-
-
-
 
 header{
     width: auto;
@@ -37,51 +34,38 @@ header{
     border: black solid;
     margin: 5px;
     background-color: #FA255E;
-    
     background-image: url(https://www.f-covers.com/cover/strawberries-2-facebook-cover-timeline-banner-for-fb.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 nav{
   
     background-color:#C39EA0;
     border: black ridge;
-    
     width: auto;
     margin: 5px;
     padding-bottom: 15px;
-
-    
-   
 }
 
 ul{
-    
-    list-style-type: none;
-    
+    list-style-type: none; 
 }
 
 li{
     margin: 20px;
     border: black 1px ;
     float: left;
-    
 }
 
 main{
-    
     width: auto;
     background-color: #5e6363;
     border: black solid;
     margin: 5px;
-    
-    
 }
 
 #aside1{
-    
     min-height: 98.5%;
     background-color: #C39EA0;
     border: black solid;
@@ -89,10 +73,10 @@ main{
     padding: 5px;
     width: 32%;
     float: left;
+    min-width: 250px;
 }
 
 section{
-    
     height: 99%;
     background-color:#C39EA0;
     border: black solid;
@@ -100,10 +84,10 @@ section{
     padding: 5px;
     width: 65.5%;
     float: left;
+    min-width: 410px;
 }
 
 #div1{
-    
     background-color:#f8e5e5;
     border: black solid;
     margin: 5px; 
@@ -114,36 +98,38 @@ section{
 }
 
 #aside2{
-    
     background-color:#f8e5e5;
     border: black solid;
     margin: 5px;
     padding: 5px;
-    width: 47.5%;
-    height: 26%;
-    float: right;
+    width: 48.375%;
+    min-height: 350px;
+    float: left;
+    background-image: url(https://www.adafruit.com/includes/templates/adafruit2013/images/pi_logo.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100% 100%;
 }
 
+
 #article1{
-    
     background-color: #f8e5e5;
     border: black solid;
     margin: 5px;
     padding: 5px;
-    width: 47.5%;
+    width: 48.375%;
     height: 75%;
     float: left;
 }
 
 #article2{
-    
     background-color: #f8e5e5;
     border: black solid;
     margin: 5px; 
     padding: 5px;
-    width: 47.5%;
+    width: 48.375%;
     min-height: 48%;
-    float: right;
+    float: left;
 }
 
 .darkback{
@@ -154,29 +140,22 @@ footer{
     height: 150px;
     width: auto;
     vertical-align: bottom;
-    
-    align-content: center;
-    
     background-color: #FA255E;
     border: black solid;
     margin: 5px;
-    overflow-wrap: normal;
-    display:flex;
-    flex-direction: column;
-    
-    
 }
 
-#footerheader{
-    margin: 10px;
-    height: 50%;
+#footernav{
+    margin: 5px;
+    height: 33%;
     vertical-align: top;
     float: left;
 }
 
 #footerparagraph{
-    margin: 10px;
-    height: 50%;
+    margin: 5px auto;
+    height: 20%;
     vertical-align: bottom;
-    float: left;
+    float: right;
 }
+
